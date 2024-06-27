@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fileshare</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!---bootstarp cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- remix icon cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+    <!-- custome css link -->
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="page p-1">
+           <header class="header text-center">
+             <div class=" headerr d-flex justify-content-center align-items-center">
+               <div class="logo d-flex align-items-center">
+                 <img style="height:50px; width:50px;" src="img/av.png">
+                 <strong>NIBSS</strong>
+               </div>
+            <div class="links d-flex align-items-center" >
+               </div>
+             </div>
+           </header>
+        <section class="content new-content">
+          <div class="intro text-center">
+            <h1>Upload your file </h1>
+          <div class="input-center">
+            <input type="file" title="file" id="fileInput" class="mb-3">
+            <label for="fileInput" class="lbl custom-file-lab p-3 rounded rounded-pill alert-link btn-outline-success">Upload file</label>
+          </div>
+        <button class="btn btn-primary" id="uploadButton">Share</button>
+      <div id="shareableLink" class=""></div>
+          </div>
+        </section>
+        </div>
+      </div>
+    </div>
+    
+    
+  <script src="script.js"></script>
+  </body>
+</html>
